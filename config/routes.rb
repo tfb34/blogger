@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   	resources :comments
   end
   root 'articles#index'
+  resources :tags
 end
